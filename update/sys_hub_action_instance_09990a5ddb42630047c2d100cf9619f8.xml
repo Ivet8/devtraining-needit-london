@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_type display_value="Get Property">b872399ddb02630047c2d100cf961927</action_type>
+        <action_type_parent/>
+        <comment>get the application property which determine how old a task should be to automatically close it</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Find and close Long Overdue NeedIt Tasks">e8b7c61ddb42630047c2d100cf96190f</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 11:55:14</sys_created_on>
+        <sys_id>09990a5ddb42630047c2d100cf9619f8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_instance_09990a5ddb42630047c2d100cf9619f8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-27 11:55:14</sys_updated_on>
+        <ui_id>84bfa3c1-1c07-4fce-9fec-d42b1871de5c</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=09990a5ddb42630047c2d100cf9619f8"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>09990a5ddb42630047c2d100cf9619f8</document_key>
+        <order>0</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-27 11:55:14</sys_created_on>
+        <sys_id>cd990a5ddb42630047c2d100cf9619fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-27 11:55:14</sys_updated_on>
+        <value>x_58872_needit.autoCloseOverdue</value>
+        <variable display_value="">ad9639dddb02630047c2d100cf9619c1</variable>
+    </sys_variable_value>
+</record_update>
